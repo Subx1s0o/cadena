@@ -3,7 +3,7 @@
     margin-right: 40px;
 }
 
-.container {
+header .container {
     display: flex;
     justify-content: space-between;
 }
