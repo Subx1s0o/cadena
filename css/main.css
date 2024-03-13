@@ -1,3 +1,27 @@
+@font-face {
+    font-family: 'Satoshi-Regular';
+    src: url('../fonts/Satoshi-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Satoshi-Medium';
+    src: url('../fonts/Satoshi-Medium.ttf') format('truetype');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Satoshi-Bold';
+    src: url('../fonts/Satoshi-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    line-height: 24px;
+}
+
 .container {
     max-width: 1158px;
     padding: 0 15px;
@@ -9,4 +33,28 @@
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+}
+
+main {
+    flex-grow: 1;
+}
+
+ul {
+    list-style: none ;
+    padding-left: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+    color: inherit;
+}
+
+button {
+    display: block;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    letter-spacing: 0.02em;
 }

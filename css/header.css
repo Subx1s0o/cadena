@@ -1,0 +1,55 @@
+
+.logotype {
+    margin-right: 40px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 30px;
+    font-family: 'Satoshi-Medium', sans-serif;
+    color: #1B1C20;
+}
+
+.nav-a{
+    display: block;
+    letter-spacing: 0.02em;
+    padding: 28px 0;
+}
+
+.btn-auth{
+    display: flex;
+    gap: 12px;
+    padding: 18px 0px;
+}
+
+.white-btn-auth {
+    text-align: center;
+    font-family: 'Satoshi-Bold', sans-serif;
+    color: #1B1C20;
+    letter-spacing: 0.04em;
+}
+
+.black-btn-auth {
+    text-align: center;
+    gap: 12px;
+    padding-top: 10px ;
+    padding-bottom: 10px;
+    padding-left: 18px;
+    padding-right: 18px;
+    font-family: 'Satoshi-Bold', sans-serif;
+    color: #1B1C20;
+    letter-spacing: 0.04em;
+    color: white;
+    background-color: #0F0F14;
+    border-radius: 8px;
+}
