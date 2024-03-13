@@ -1,0 +1,17 @@
+.second-section {
+    padding: 50px 0;
+    background-color: #FAF8F5;
+}
+
+.trust-p {
+    margin-bottom: 24px;
+    text-align: center;
+    font-family: 'Satoshi-Medium', sans-serif;
+    color: #797B89;
+    
+}
+
+.second-section .container ul {
+    display: flex;
+    justify-content: space-between;
+}
