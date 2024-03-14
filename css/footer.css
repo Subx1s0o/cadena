@@ -1,0 +1,18 @@
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icons {
+  display: flex;
+  gap: 24px;
+}
+
+.footer-content a {
+  margin: 0;
+}
+
+.footer-content p {
+  font-family: "Inter", serif;
+  color: #797b89;
+}
